@@ -1,0 +1,161 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Resume LaTeX Template
+% Version 2.0 (12/29/2020)
+%
+% Original author:
+% Xiatao Sun
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.1in,top=0.2in,right=0.1in,bottom=0.2in]{geometry} % Document margins
+\usepackage{pbox}
+
+\name{Xiatao Sun} 
+\address{3131 Walnut St, Philadelphia, PA 19104 | (518)~$\cdot$~360~$\cdot$~9927 | sunxiatao@gmail.com } 
+\address{grasp.upenn.edu/people/xiatao-sun | linkedin.com/in/xiatao-sun-77646b14b | github.com/M4D-SC1ENTIST} 
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of Pennsylvania} \hfill {\em Aug. 2021 - May 2023
+} \\ 
+M.S.E. in Robotics \\
+GPA: 3.77/4.0
+
+{\bf Rensselaer Polytechnic Institute} \hfill {\em Aug. 2017 - May 2021
+} \\ 
+B.S. in Mechanical Engineering \\
+GPA 3.93/4.0 \smallskip \\
+Honor: Summa Cum Laude, Dean's Honor List, Member of Tau Beta Pi
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research \& Internship Experience}
+
+\begin{rSubsection}{mLAB(Real-Time and Embedded Systems Lab)}{Nov. 2021  - Present}{Research Assistant}{Philadelphia, PA}
+\item Built autonomous driving simulation in VR and MR using Unreal Engine4 and Python based on CARLA and OpenXR framework
+\item Processed input using Win32 API and output using a customized Blueprint class
+\item Achieved high-fidelity graphics with optimized collision detection using a detailed mesh rendering for VR perspective and mesh with reduced polygons as a collider
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Qingdao Tian Yi Data Tech Co., Ltd.}{May 2021 - Present}{Co-Founder, CTO}{Qingdao, China}
+\item Led the technological development of a healthcare platform
+\item Designed and planned the overall software architecture and the roadmap
+\item Developed the entire demo of the platform using Python, MySQL, HTML, Bootstrap, JavaScript, jQuery, and other relevant back-end and front-end technologies from scratch
+\item Deployed the application on AWS using CentOS for operating system, uWSGI for multithreading and web server gateway interface, and GoDaddy for DNS hosting
+\item Managed the development team and assessed employees performance
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{CeMSIM (Center for Modeling, Simulation, \& Imaging in Medicine)}{Jun. 2020 - Dec. 2020}{Undergraduate Student Researcher}{Troy, NY}
+\item Developed the entire simulation environment, fixed errors in models, and tuned the graphics via High-Definition Rendering Pipeline
+\item Based on XR Plug-in Framework, developed most player interaction mechanics and a variety of locomotion system integrated together, including continuous movement, snap turn, and teleportation
+\item Developed AI agents in Unity Machine Learning platform based on PPO (proximal policy optimization) for a push block task
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{School of Engineering at Rensselaer Polytechnic Institute}{Jan. 2020 - May 2020}{AR/VR Developer}{Troy, NY}
+\item Built a VR environment of MILL (Manufacturing Innovation Learning Laboratory) and synchronized it with the actual MILL lab, using Unreal Engine 4, Blueprint and Maya
+\item Developed a continuous locomotion with dynamic collision detection, automatic height adjustment, and auto-alignment between player model and outside collider
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Department of MANE at Rensselaer Polytechnic Institute}{May 2019 - May 2020}{Course Development Assistant}{Troy, NY}
+\item Built a virtual environment as graphical user interface for students in Propulsion Systems course, using Unity3D, Blender and C\#
+\item Employed MATLAB to get curve fit of thermal dynamics system to fit into C\# code in Unity program
+\item Developed the entire simulation program from scratch, responsible for designing and constructing environment, post-processing, and visual effects, as well as programming for interaction mechanics based on SteamVR Plugin in Unity
+\item Helped on finding the curve fit for the underlying thermodynamic model that governed the simulation by using MATLAB
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Department of Chemical Engineering at Rensselaer Polytechnic Institute}{May 2019 - May 2020}{VR Developer}{Troy, NY}
+\item Developed a virtual reality lab for students’ practice in process control and thermodynamics, using Unity3D and C\# for game logic and Blender for 3D modeling
+\item Transformed the original flat screen simulation into virtual reality, developed VR interaction mechanics and teleportation locomotion system in this project based on SteamVR Plugin in Unity
+\item Worked on graphics enhancement and 3D modeling for a variety of objects, such as heat exchanger and water tank
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Liandessen Electrical Institution and Technology Co., Ltd.}{Sep. 2019 – Dec. 2019}{Mechanical Engineer Intern}{Qingdao, China}
+\item Selected and arranged modes in an appropriate way, analyzed structure of parts to identify whether they had undercut or not, and examined the types of sidestep
+\item Determined the cooling method and pipe arrangement, and clarified the quantity and position of inserts
+\item Utilized CAD to draw and verify part diagram
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Rensselaer Artificial Intelligence and Reasoning Lab}{Sep. 2018 – Dec. 2018}{Undergraduate Student Researcher}{Troy, NY}
+\item Researched on the logical differences between eastern and western culture, assisted in building prototyping NLP translating programs, such as word parser, with the help of logical translation by using Python
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Goertek Electronics}{Jun. 2018 – Jul. 2018}{Embedded System Developer Intern}{Qingdao, China}
+\item Tested and debugged the prototype of OPPO O-Free, a truly wireless earbud, using SDK from Snapdragon and GAIA
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	KNOWLEDGE & TECHNICAL SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Knowledge \& Techincal Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Knowledge & \pbox{20cm}{Robot Control, Path Planning, XR Development, Machine Learning, 
+                        \\Data Analytics, Web Development, Embedded System Development
+                        } \smallskip\\
+
+Programming Languages & C, C++, C\#, Python, MATLAB, SQL, HTML, JavaScript\\
+Web Development Tools & Flask, SQLAlchemy, Vue.js, jQuery \\
+CAD Software & NX Unigraphics, SpaceClaim  \\
+3D Modeling Software & Blender, Maya, ZBrush, Marvelous Designer, Substance Painter\\
+Game Engines & Unity, Unreal Engine 4 \\
+Data Analytics Tools & Jupyter Notebook, Pandas, Matplotlib, Seaborn, PySpark\\
+Machine Learning Frameworks & PyTorch, MXNet, Tensorflow, Spark ML\\
+Language & Mandarin, English \\
+Other Technical Skills & LaTeX, LabVIEW, Lathe, Vertical Drill, Welding, FL Studio, Piano
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
